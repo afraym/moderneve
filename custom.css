@@ -57,13 +57,13 @@ p em {
     }
 
     /* disable animations for top part*/
-    #header > div.header-announcement-bar-wrapper *{
+    #page-section-5e45b5c461ff1109c07e06c7,#header > div.header-announcement-bar-wrapper *{
         transform: unset !important;
        opacity: 1 !important;
        transition-delay: unset !important;
        transition: unset !important;
    }
-   
+
 }
 
 /* Hide this on Tablet - Desktop */
