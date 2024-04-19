@@ -57,7 +57,13 @@ p em {
     }
 
     /* disable animations for top part*/
-
+    #header > div.header-announcement-bar-wrapper *{
+        transform: unset !important;
+       opacity: 1 !important;
+       transition-delay: unset !important;
+       transition: unset !important;
+   }
+   
 }
 
 /* Hide this on Tablet - Desktop */
