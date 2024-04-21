@@ -49,6 +49,89 @@ p em {
     letter-spacing: 2px;
 }
 
+.sqs-block-button-container {
+    text-align: center;
+}
+.sqs-block-button:not(.sqs-stretched) .sqs-block-button-container {
+    display: flex;
+}
+.sqs-block-button:not(.sqs-stretched) .sqs-block-button-container--center {
+    justify-content: center;
+}
+.sqs-block-button-element {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    padding: var(--primaryButtonPadding) calc(var(--primaryButtonPadding) * 1.67);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    padding: var(--primary-button-padding-y) var(--primary-button-padding-x);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    border-width: var(--primary-button-stroke);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    line-height: normal;
+    border-style: solid;
+}
+body.primary-button-style-solid .sqs-button-element--primary {
+    -webkit-backface-visibility: hidden;
+}
+.primary-button-shape-petal .sqs-button-element--primary {
+    border-radius: 16px 0;
+}
+.form-submit-button-style-spinner .form-submit-button-state > span,
+.form-submit-button-style-ellipsis .form-submit-button-state > span,
+.form-submit-button-style-bar .form-submit-button-state > span,
+.form-submit-button-style-circle .form-submit-button-state > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-play-state: paused;
+    align-self: center;
+    justify-self: center;
+    grid-area: state;
+    opacity: 0;
+    visibility: hidden;
+}
+.sqs-block-button-container {
+    text-align: center;
+}
+.sqs-block-button:not(.sqs-stretched) .sqs-block-button-container {
+    display: flex;
+}
+.sqs-block-button:not(.sqs-stretched) .sqs-block-button-container--center {
+    justify-content: center;
+}
+.sqs-block-button-element {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    padding: var(--primaryButtonPadding) calc(var(--primaryButtonPadding) * 1.67);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    padding: var(--primary-button-padding-y) var(--primary-button-padding-x);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    border-width: var(--primary-button-stroke);
+}
+#siteWrapper.site-wrapper .sqs-button-element--primary {
+    line-height: normal;
+    border-style: solid;
+}
+body.primary-button-style-solid .sqs-button-element--primary {
+    -webkit-backface-visibility: hidden;
+}
+.primary-button-shape-petal .sqs-button-element--primary {
+    border-radius: 16px 0;
+}
+[data-animation-role="image"] {
+    min-height: 1px;
+}
+.tweak-global-animations-animation-type-scale header,
+.tweak-global-animations-animation-type-scale section > .content-wrapper {
+    opacity: 1;
+}
 
 /* Hide this on Mobile */
 @media screen and (max-width:767px) {
