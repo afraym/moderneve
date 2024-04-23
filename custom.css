@@ -138,6 +138,12 @@ body.primary-button-style-solid .sqs-button-element--primary {
     [data-section-id="616463318b0aa515fb1bf188"] {
         display: none;
     }
+    [data-section-id="5e45b5c461ff1109c07e06c7"] * {
+        transform: unset !important;
+        opacity: 1 !important;
+        transition-delay: unset !important;
+        transition: unset !important;
+    }
 
     /* disable animations for top part*/
     #header > div.header-announcement-bar-wrapper > div.header-inner.container--fluid.header-mobile-layout-logo-left-nav-right.header-layout-nav-right > div.header-display-desktop > div.header-title-nav-wrapper > div.header-title.header-title--use-mobile-logo.preFade.fadeIn,
