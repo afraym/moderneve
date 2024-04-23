@@ -1,0 +1,21 @@
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div {
+    position: relative;
+	overflow: hidden;
+}
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    transform: skewX(-25deg);
+    pointer-events: none;
+}
+
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div:hover::after {
+    animation: shine .75s;
+}

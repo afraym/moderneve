@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'vitrinafont';
+    src: url('https://cdn.jsdelivr.net/gh/afraym/moderneve/FFShamelFamily-SansOneBook.ttf');
+}
+
+body,
+html {
+    font-family: vitrinafont !important;
+    font-size: 15px;
+}
+
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div {
+    position: relative;
+	overflow: hidden;
+}
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    transform: skewX(-25deg);
+    pointer-events: none;
+}
+
+body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div:hover::after {
+    animation: shine .75s;
+}
+/* End Afraym Css*/
+.search-header,
+.upper-bar,
+.header header {
+    background-color: #f3f3f4 !important
+}
+
+.home .ss .container {
+    max-width: 100% !important
+}
+
+.search-header {
+    padding: 0px !important
+}
+
+h2.section-title.theme-title-primary::before {
+    content: '';
+    position: absolute;
+    background-color: #8b150f;
+    padding: 1px;
+    top: 47%;
+    width: 28%;
+    left: 57%;
+    ;
+    border-radius: 120px;
+}
+
+h2.section-title.theme-title-primary::after {
+    content: '';
+    position: absolute;
+    background-color: #8b150f;
+    padding: 1px;
+    top: 47%;
+    width: 28%;
+    right: 57%;
+    border-radius: 120px;
+}
+
+.btn-primary {
+    width: 100%
+}
+
+.home-products-section[section-id='eedf2ec5-8ce7-4195-bc75-97fbd82a03be'] {
+    background-image: url(https://tgtlyhbbdualmlipzyja.supabase.co/storage/v1/object/public/images/all%20diena);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 70vh;
+    position: relative;
+}
+
+.slider-container {
+    background-color: #fff;
+}
+
+.section-title {
+    position: relative;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    object-fit: fill
+}
+
+@media (max-width: 450px) {
+    .home-products-section[section-id='eedf2ec5-8ce7-4195-bc75-97fbd82a03be'] {
+        height: auto
+    }
+
+    h2.section-title.theme-title-primary::after {
+        right: 70%;
+    }
+
+    h2.section-title.theme-title-primary::before {
+        left: 70%;
+    }
+}
+
+.product-item .content div {
+    height: 250px !important
+}
+
+@media (max-width: 450px) {
+    .product-item .content div {
+        height: 212px !important
+    }
+}
+
+.features-section {
+    background: #ffffff;
+    color: #fff;
+}
+
+.footer-about-us-div {
+    position: relative;
+    padding-top: 70px
+}
+
+.footer-about-us-div::before {
+    content: "";
+    position: absolute;
+    height: 90px;
+    width: 79px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://media.zid.store/cdn-cgi/image/h=175,q=100/https://media.zid.store/5efb3f0c-e80c-44a0-b6c3-b6898878555f/67badaac-1e54-4ba7-9b39-0658baf0b598.png);
+    left: 50%;
+    top: -10px;
+}
+
+element.style {
+    width: auto;
+    max-height: 80px;
+}
+
+.product-item .product-title {
+    margin-top: 80px !important;
+}
