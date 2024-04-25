@@ -145,12 +145,9 @@ body.primary-button-style-solid .sqs-button-element--primary {
         transition: unset !important;
         
     }
-    [data-section-id="5e45b5c461ff1109c07e06c7"]{
-        background-image: url('https://images.squarespace-cdn.com/content/v1/5e45b38ce3e1791c1f1e2cb3/0daac83a-ad10-4750-bdc8-f87e1630a8c6/Gold%2BOrganic%2BWarm%2BHealth%2B%26%2BWellness%2BService%2BWebsite.jpg?format=600w');
+    #sections > section.page-section.layout-engine-section.background-width--full-bleed.section-height--custom.content-width--narrow.horizontal-alignment--center.vertical-alignment--top.has-background.bright > div.section-border > div > div {
+        opacity: 0.17 !important;
     }
-    /* #sections > section.page-section.layout-engine-section.background-width--full-bleed.section-height--custom.content-width--narrow.horizontal-alignment--center.vertical-alignment--top.has-background.bright > div.section-border > div > img{
-        opacity: unset;
-    } */
 
     /* disable animations for top part*/
     #header > div.header-announcement-bar-wrapper > div.header-inner.container--fluid.header-mobile-layout-logo-left-nav-right.header-layout-nav-right > div.header-display-desktop > div.header-title-nav-wrapper > div.header-title.header-title--use-mobile-logo,
