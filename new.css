@@ -30,6 +30,12 @@ body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app
 body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div:hover::after {
     animation: shine .75s;
 }
+
+header {
+    background-color: rgba(243, 243, 244, 0.3) !important;
+    -webkit-backdrop-filter:blur(40px);
+    backdrop-filter: blur(40px);
+}
 /* End Afraym Css*/
 .search-header,
 .upper-bar,
