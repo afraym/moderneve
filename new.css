@@ -32,9 +32,9 @@ body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app
 }
 
 header {
-    background-color: rgba(243, 243, 244, 0.3) !important;
+    background-color:rgba(243, 243, 244, 0.3) !important;
     -webkit-backdrop-filter:blur(40px);
-    backdrop-filter: blur(40px);
+    backdrop-filter:blur(40px);
 }
 /* End Afraym Css*/
 .search-header,

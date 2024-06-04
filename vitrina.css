@@ -19,24 +19,3 @@ body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app
 body > div.app.d-flex.flex-column.visible > div.main.flex-grow-1.app-content.app-content-padded > div > div:nth-child(19) > div > div > div > div > div > div > div.prod-col.slick-slide.slick-current.slick-active > div > a > div.box-1-1 > div > div:hover::after {
     animation: shine .75s;
 }
-.product-item {
-    position: relative;
-}
-.product-item > div {
-        position: absolute;
-        bottom: 40%;
-        width: inherit;
-        border: 0;
-        outline: none;
-        transition: all .45s;
-        font-size: 14px;
-        overflow: hidden;
-        /* margin: -4px; */
-        /* border: 0; */
-        /* outline: none; */
-        transition: all .45s;
-        /* padding: 10px 6px 5px; */
-        /* font-size: 14px; */
-        /* overflow: hidden; */
-        background-color: var(--primary-color);
-}
