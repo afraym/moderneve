@@ -1,2 +1,2 @@
 # moderneve
-moderneve assets
+moderneve.org assets to optimize loading speed
